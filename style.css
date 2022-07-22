@@ -207,6 +207,7 @@
     margin: 4vw 2.5vw;
     cursor: pointer;
     font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .options p:hover {
@@ -223,6 +224,7 @@
     color: white;
     padding: 3vw 0;
     font-size: 5vw;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .border {
@@ -244,6 +246,7 @@
     color: white;
     font-size: 1.59vw;
     margin-bottom: 1vw;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .fa-brands {
@@ -254,6 +257,7 @@
     color: white;
     padding-top: 3vw;
     font-size: 1.6vw;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .bonus {
@@ -472,7 +476,7 @@ and (min-width: 577px) {
 
     .first-part {
         grid-template-columns: repeat(1, 1fr);
-        height: 180vw;
+        height: 193vw;
     }
 
     .heading {
@@ -505,15 +509,15 @@ and (min-width: 577px) {
     .banner-img {
         left: 12vw;
         width: 75vw;
-        height: 70vw;
-        margin: 45vw 0 0 0;
+        height: 80vw;
+        margin: 50vw 0 0 0;
         bottom: 6vw;
     }
 
     .animation {
-        width: 110vw;
-        top: 146vw;
-        right: -61vw;
+        width: 130vw;
+        top: 157vw;
+        right: -80vw;
     }
 
     .side-manu {
@@ -537,7 +541,7 @@ and (min-width: 577px) {
 
     .blogs-item {
         width: 75vw;
-        height: 89vw;
+        height: 95vw;
     }
 
     .blog-img {
@@ -547,14 +551,14 @@ and (min-width: 577px) {
 
     .transfer {
         font-size: 4vw;
-        width: 48vw;
-        height: 9vw;
+        width: 55vw;
+        height: 13vw;
         margin-top: 5vw;
     }
 
     .blogs-item p {
         margin: 3.5vw 2vw 0 8vw;
-        font-size: 3.51vw;
+        font-size: 4vw;
     }
 
     .time img,
