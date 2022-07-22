@@ -491,7 +491,7 @@ and (min-width: 577px) {
     }
 
     .secondary-text {
-        font-size: 3vw;
+        font-size: 5vw;
         width: 68vw;
         margin: 2vw auto;
         overflow: hidden;
@@ -590,7 +590,7 @@ and (min-width: 577px) {
     }
 
     .last-part {
-        height: 107vw;
+        height: 120vw;
     }
 
     .follow,
