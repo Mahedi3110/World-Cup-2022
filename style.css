@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* -----------------------------1st page design start-------------------------------- */
+
 .first-part {
     display: grid;
     grid-template-columns: 7fr 3fr;
@@ -259,9 +261,15 @@
     display: none;
 }
 
+/* -----------------------------1st page design end-------------------------------- */
 
 
-/* -----------------------------upcoming match.html-------------------------------- */
+
+
+
+
+
+/* -----------------------------2nd page design start-------------------------------- */
 .country-one,
 .country-two {
     width: 6.9vw;
@@ -326,8 +334,17 @@
     margin-left: -1.5vw;
 }
 
+/* -----------------------------2nd page design end-------------------------------- */
 
-/*---------------------media query for tablet (1st page)--------------------------*/
+
+
+
+
+
+
+
+
+/*---------------------media query for tablet (1st page) start--------------------------*/
 
 @media only screen and (max-width: 992px),
 and (min-width: 577px) {
@@ -392,7 +409,14 @@ and (min-width: 577px) {
         height: 4.4vw
     }
 
-    /*---------------------media query for tablet (2nd page)---------------------*/
+    /*---------------------media query for tablet (1st page) end--------------------------*/
+
+
+
+
+
+
+    /*---------------------media query for tablet (2nd page) start---------------------*/
 
     .upcoming-part {
         grid-template-columns: repeat(1, 1fr);
@@ -430,11 +454,16 @@ and (min-width: 577px) {
     .upcoming-item p {
         font-size: 1.6vw;
     }
-
-
 }
 
-/*----------------------media query for mobile (1st page)------------------------*/
+/*---------------------media query for tablet (2nd page) end---------------------*/
+
+
+
+
+
+
+/*----------------------media query for mobile (1st page) start------------------------*/
 
 @media only screen and (max-width: 576px) {
     .bonus {
@@ -567,7 +596,15 @@ and (min-width: 577px) {
         font-size: 6vw;
     }
 
-    /*---------------------media query for tablet (2nd page)---------------------*/
+    /*----------------------media query for mobile (1st page) end------------------------*/
+
+
+
+
+
+
+
+    /*---------------------media query for mobile (2nd page) start---------------------*/
 
     .upcoming-section {
         grid-template-columns: repeat(1, 1fr);
@@ -608,5 +645,6 @@ and (min-width: 577px) {
     .flag-part {
         margin: 1vw 0 0 7vw;
     }
-
 }
+
+/*---------------------media query for mobile (2nd page) end---------------------*/
