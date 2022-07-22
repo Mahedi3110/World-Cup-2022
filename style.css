@@ -4,7 +4,6 @@
 }
 
 .first-part {
-    /*display: flex;*/
     display: grid;
     grid-template-columns: 7fr 3fr;
     background-color: rgba(22, 22, 22, 1);
@@ -14,15 +13,11 @@
     position: relative;
     overflow: hidden;
     margin: 0.4vw;
-    /*background: linear-gradient(to right, black, black);*/
 }
 
 .heading {
     margin-left: 7vw;
     height: 50vw;
-    /*margin-top: 3vh;*/
-    /*position: absolute;*/
-
 }
 
 .main-text {
@@ -56,10 +51,6 @@
     background: #ff3f3f;
 }
 
-.banner {
-    /*position: absolute;*/
-}
-
 .banner-img {
     position: relative;
     left: -7vw;
@@ -76,7 +67,6 @@
     transform: translate(-50%, -50%);
     animation: sliding 50s infinite linear;
     animation-play-state: running;
-    /*background: linear-gradient(to right, black), url("img/ball2.png");*/
 }
 
 
@@ -191,7 +181,6 @@
     font-size: 1.59vw;
     margin-top: 1.8vw;
     box-shadow: 1px 1px 1px rgb(148, 148, 148);
-    /* background: #d30b0b; */
 }
 
 .transfer:hover {
@@ -302,10 +291,6 @@
 .flag-part {
     margin: 1vw 0 0 0.4vw;
 }
-
-/*.flag-part img, .flag-part span{
-    display: block;
-}*/
 
 .upcoming-section {
     display: grid;
