@@ -472,7 +472,7 @@ and (min-width: 577px) {
 
     .first-part {
         grid-template-columns: repeat(1, 1fr);
-        height: 120vw;
+        height: 180vw;
     }
 
     .heading {
@@ -481,7 +481,9 @@ and (min-width: 577px) {
 
     .main-text {
         text-align: center;
-        font-size: 7vw;
+        font-size: 10vw;
+        margin-bottom: 6vw;
+        margin-top: 12vw;
     }
 
     .secondary-text {
@@ -494,22 +496,23 @@ and (min-width: 577px) {
     }
 
     .watch-live {
-        font-size: 2.7vw;
-        width: 25vw;
-        height: 7.5vw;
-        margin-left: 36.5vw;
+        font-size: 4vw;
+        width: 50vw;
+        height: 15vw;
+        margin: 7vw 0 0 24.5vw;
     }
 
     .banner-img {
-        left: 22.8vw;
-        width: 56vw;
-        height: 56vw;
-        margin: 0;
+        left: 12vw;
+        width: 75vw;
+        height: 70vw;
+        margin: 45vw 0 0 0;
+        bottom: 6vw;
     }
 
     .animation {
         width: 110vw;
-        top: 109vw;
+        top: 146vw;
         right: -61vw;
     }
 
